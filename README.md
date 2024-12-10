@@ -32,7 +32,7 @@ class Profile {
   }
 
   public static void main(String[] args) {
-    Profile getheobald = newProfile();
+    Profile getheobald = new Profile();
     getheobald.printProfile();
     getheobald.printActivitiesAndHobbies();
   }
