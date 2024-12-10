@@ -15,6 +15,7 @@ class Profile {
   public String[] pronouns;
   public String school;
   public String year;
+  public String major;
   private double GPA;
   public String sport;
   public String[] hobbies;
@@ -24,6 +25,7 @@ class Profile {
     this.pronouns = {"She", "Her"};
     this.school = "Northeastern University";
     this.year = "Junior";
+    this.major = "Computer Science and Behavioral Neuroscience";
     this.GPA = 3.89;
     this.sport = "NCAA D1 Rowing";
     this.hobbies = {"Mountaineering", "Skiing", "Backpacking", "Guitar", "Audiobooks"};
@@ -36,8 +38,8 @@ class Profile {
   }
 
   public void printProfile() {
-    System.out.println("Hi, my name is " + this.name + "! My pronouns are " + this.pronouns +
-        ". I'm a " + this.class + " at " + this.school + " with a GPA of " + this.GPA + ".");
+    System.out.println("Hi, my name is " + this.name + "! My pronouns are " + this.pronouns + ". I'm a " + this.class +
+                      " at " + this.school + " studying " + this.major + " with a GPA of " + this.GPA + ".");
   }
 
   public void printActivitiesAndHobbies() {
