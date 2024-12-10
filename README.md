@@ -39,7 +39,7 @@ class Profile {
 
   public void printProfile() {
     System.out.println("Hi, my name is " + this.name + "! My pronouns are " + this.pronouns + ". I'm a " +
-        this.class + " at " + this.school + " studying " + this.major + " with a GPA of " + this.GPA + ".");
+        this.year + " at " + this.school + " studying " + this.major + " with a GPA of " + this.GPA + ".");
   }
 
   public void printActivitiesAndHobbies() {
