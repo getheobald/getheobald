@@ -30,27 +30,5 @@ class Profile {
     this.sport = "NCAA D1 Rowing";
     this.hobbies = {"Mountaineering", "Skiing", "Backpacking", "Guitar", "Audiobooks"};
   }
-
-  public static void main(String[] args) {
-    Profile getheobald = new Profile();
-    getheobald.printProfile();
-    getheobald.printActivitiesAndHobbies();
-  }
-
-  public void printProfile() {
-    System.out.println("Hi, my name is " + this.name + "! My pronouns are " + this.pronouns + ". I'm a " +
-        this.year + " at " + this.school + " studying " + this.major + " with a GPA of " + this.GPA + ".");
-  }
-
-  public void printActivitiesAndHobbies() {
-    StringBuilder hobbiesString = new StringBuilder();
-    for (int i = 0; i < this.hobbies.length; i++) {
-      hobbiesString.append(this.hobbies[i]);
-      if (i < this.hobbies.length - 1) {
-        hobbiesString.append(", ");
-      }
-    }
-    System.out.println("I do " + this.sport + " and my favorite hobbies are " + hobbiesString + ".");
-  }
 }
 ```
