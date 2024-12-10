@@ -1,10 +1,4 @@
-## Hi there 👋
-
 <!--
-**getheobald/getheobald** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -14,3 +8,48 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+```
+class Profile {
+
+  public String name;
+  public String[] pronouns;
+  public String school;
+  public String year;
+  private double GPA;
+  public String sport;
+  public String[] hobbies;
+
+  public Profile() {
+    this.name = "Grace Theobald";
+    this.pronouns = {"She", "Her"};
+    this.school = "Northeastern University";
+    this.year = "Junior";
+    this.GPA = 3.89;
+    this.sport = "NCAA D1 Rowing";
+    this.hobbies = {"Mountaineering", "Skiing", "Backpacking", "Guitar", "Audiobooks"};
+  }
+
+  public static void main(String[] args) {
+    Profile getheobald = newProfile();
+    getheobald.printProfile();
+    getheobald.printActivitiesAndHobbies();
+  }
+
+  public void printProfile() {
+    System.out.println("Hi, my name is " + this.name + "! My pronouns are " + this.pronouns +
+        ". I'm a " + this.class + " at " + this.school + " with a GPA of " + this.GPA + ".");
+  }
+
+  public void printActivitiesAndHobbies() {
+    StringBuilder hobbiesString = new StringBuilder();
+    for (int i = 0; i < this.hobbies.length; i++) {
+      hobbiesString.append(this.hobbies[i]);
+      if (i < this.hobbies.length - 1) {
+        hobbiesString.append(", ");
+      }
+    }
+    System.out.println("I do " + this.sport + " and my favorite hobbies are " + hobbiesString + ".");
+  }
+}
+```
