@@ -11,7 +11,6 @@
 
 ```
 class Profile {
-
   public String name;
   public String[] pronouns;
   public String school;
