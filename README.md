@@ -12,7 +12,7 @@
 ```
 class Profile {
   public String name;
-  public String[] pronouns;
+  public String pronouns;
   public String school;
   public String year;
   public String major;
@@ -22,7 +22,7 @@ class Profile {
 
   public Profile() {
     this.name = "Grace Theobald";
-    this.pronouns = {"She", "Her"};
+    this.pronouns = "She/Her";
     this.school = "Northeastern University";
     this.year = "Junior";
     this.major = "Computer Science and Behavioral Neuroscience";
