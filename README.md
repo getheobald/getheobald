@@ -26,7 +26,7 @@ class Profile {
     this.school = "Northeastern University";
     this.year = "Fourth-year";
     this.major = "Computer Science and Behavioral Neuroscience";
-    this.GPA = 3.89;
+    this.GPA = 3.9;
     this.sport = "NCAA D1 Rowing";
     this.hobbies = {"Mountaineering", "Skiing", "Backpacking", "Guitar", "Audiobooks"};
   }
