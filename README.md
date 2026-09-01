@@ -1,3 +1,5 @@
+Hi, I'm Grace! I'm a fifth-year at Northeastern University in Boston studying Computer Science and Behavioral Neuroscience, though currently on co-op as a full-stack software engineer at Clinical Research IO. I'm on Northeastern's NCAA D1 Rowing team, and in my spare time I like to ski, hike, cycle, etc.
+
 <!--
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -9,6 +11,7 @@
 - ⚡ Fun fact: ...
 -->
 
+<!--
 ```
 class Profile {
   public String name;
@@ -32,3 +35,4 @@ class Profile {
   }
 }
 ```
+-->
